@@ -101,17 +101,21 @@ main {
     border-radius: 5px;
 }
 
-.qualification ul {
+.qualification ul, .certification ul, .awards ul {
     list-style: none;
     padding: 0;
 }
 
-.qualification ul li {
+.qualification ul li, .certification ul li, .awards ul li {
     background: #E6E6FA;
     color: #333333;
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
+}
+
+.certification ul li, .awards ul li {
+    margin-bottom: 15px; /* Added margin-bottom for spacing */
 }
 
 .project {
